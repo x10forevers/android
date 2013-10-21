@@ -12,6 +12,15 @@
   <remote  name="local"
            fetch="git://review.mfunz.com/github"
            review="review.mfunz.com" />
+           
+  <remote  name="xf"
+           fetch="git://github.com/x10forevers/" />
+           
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
+           
+  <remote  name="cmod"
+           fetch="git://github.com/CyanogenMod/" />
 	   
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -290,11 +299,6 @@
   <project path="hardware/qcom/sensors" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_hardware_qcom_wlan" />
   <project path="hardware/ril" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_hardware_ril" groups="pdk"  />
-  <project path="hardware/samsung_slsi/exynos5" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_hardware_samsung_slsi_exynos5" />
-  <project path="hardware/ti/omap3" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap4xxx" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wlan" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_hardware_ti_wpan" />
   <project path="libcore" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_libcore" />
   <project path="libnativehelper" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -351,22 +355,10 @@
   <project path="packages/wallpapers/PhaseBeam" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_wallpapers_PhaseBeam" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" />
   <project path="prebuilt" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_prebuilt" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -445,6 +437,17 @@
   <project path="packages/providers/CalendarProvider" name="MoKee/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/DownloadProvider" name="MoKee/android_packages_providers_DownloadProvider" />
   <!-- MoKee Packages Provider End -->
+  
+  <!-- Yuga Specific Build repos -->
+  <project path="hardware/sony/DASH" remote = "cmod" revision="refs/heads/cm-10.2" name="android_hardware_sony_DASH" />
+  <project path="device/sony/common" remote = "cmod" revision="refs/heads/cm-10.2" name="android_device_sony_common" />
+  <project path="device/sony/qcom-common" remote = "cmod" revision="refs/heads/cm-10.2" name="android_device_sony_qcom-common" />
+  <project path="device/sony/fusion3-common" remote = "cmod" revision="refs/heads/cm-10.2" name="android_device_sony_fusion3-common" />
+  <project path="packages/apps/FMRadio" remote = "cmod" revision="refs/heads/cm-10.2" name="android_packages_apps_FMRadio" />
+  <project path="kernel/sony/apq8064" remote = "cmod" revision="refs/heads/cm-10.2" name="android_kernel_sony_apq8064" />
+  <project path="vendor/sony" remote = "cmod" revision="refs/heads/cm-10.2" name="proprietary_vendor_sony" />
+  <project path="device/sony/yuga" remote = "xf" revision="refs/heads/cm-10.2" name="android_device_sony_yuga" />
+  <!-- Yuga Specific ends -->
 
   <!-- MoKee Frameworks Start -->
   <project path="frameworks/base" name="MoKee/android_frameworks_base" />
@@ -452,10 +455,6 @@
   <project path="frameworks/opt/telephony" name="MoKee/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/support" name="MoKee/android_frameworks_support" />
   <!-- MoKee Frameworks End -->
-
-  <!-- MoKee Hardware Start -->
-  <project path="hardware/samsung" name="MoKee/android_hardware_samsung" />
-  <!-- MoKee Hardware End -->
 
   <!-- MoKee System Start -->
   <project path="system/core" name="MoKee/android_system_core" groups="pdk" />
