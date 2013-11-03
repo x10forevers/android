@@ -6,11 +6,11 @@
            review="android-review.googlesource.com" />
 
   <remote  name="cyanogen"
-           fetch="git://review.mfunz.com/github/CyanogenMod"
+           fetch="git://review.mfunz.com/"
            review="review.mfunz.com" />
 
   <remote  name="local"
-           fetch="git://review.mfunz.com/github"
+           fetch="git://review.mfunz.com/"
            review="review.mfunz.com" />
            
   <remote  name="xf"
@@ -311,14 +311,12 @@
   <project path="packages/apps/CellBroadcastReceiver" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_CMFileManager" />
-  <project path="packages/apps/ContactsCommon" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DSPManager" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_Email" />
   <project path="packages/apps/Exchange" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_Gallery" />
   <project path="packages/apps/HTMLViewer" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/LockClock" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_LockClock" />
   <project path="packages/apps/MusicFX" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" remote = "cyanogen" revision="refs/heads/cm-10.2" name="android_packages_apps_OneTimeInitializer" />
@@ -419,9 +417,11 @@
   <project path="packages/apps/Calendar" name="MoKee/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera" name="MoKee/android_packages_apps_Camera" />
   <project path="packages/apps/Contacts" name="MoKee/android_packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="MoKee/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="MoKee/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="MoKee/android_packages_apps_Dialer" />
   <project path="packages/apps/Halo" name="MoKee/android_packages_apps_Halo" />
+  <project path="packages/apps/LockClock" name="MoKee/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="MoKee/android_packages_apps_Mms" />
   <project path="packages/apps/MoKeeHelper" name="MoKee/android_packages_apps_MoKeeHelper" />
   <project path="packages/apps/MoKeeLauncher" name="MoKee/android_packages_apps_MoKeeLauncher" />
