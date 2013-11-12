@@ -19,6 +19,9 @@
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
            
+  <remote  name="xf"
+           fetch="git://github.com/x10forevers/" />
+           
   <remote  name="cmod"
            fetch="git://github.com/CyanogenMod/" />
 
