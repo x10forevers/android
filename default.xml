@@ -15,6 +15,12 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+           
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
+           
+  <remote  name="cmod"
+           fetch="git://github.com/CyanogenMod/" />
 
   <remote  name="mokee"
            fetch=".."
@@ -472,6 +478,17 @@
   <project path="frameworks/opt/telephony" name="MoKee/android_frameworks_opt_telephony" />
   <project path="frameworks/support" name="MoKee/android_frameworks_support" />
   <!-- MoKee Frameworks End -->
+  
+  <!-- Yuga Specific Build repos -->
+  <project path="hardware/sony/DASH" remote = "cmod" revision="refs/heads/cm-11" name="android_hardware_sony_DASH" />
+  <project path="device/sony/common" remote = "cmod" revision="refs/heads/cm-11" name="android_device_sony_common" />
+  <project path="device/sony/qcom-common" remote = "cmod" revision="refs/heads/cm-11" name="android_device_sony_qcom-common" />
+  <project path="device/sony/fusion3-common" remote = "cmod" revision="refs/heads/cm-11" name="android_device_sony_fusion3-common" />
+  <project path="packages/apps/FMRadio" remote = "cmod" revision="refs/heads/cm-11" name="android_packages_apps_FMRadio" />
+  <project path="kernel/sony/apq8064" remote = "cmod" revision="refs/heads/cm-11" name="android_kernel_sony_apq8064" />
+  <project path="vendor/sony" remote = "tm" revision="refs/heads/cm-11" name="proprietary_vendor_sony" />
+  <project path="device/sony/yuga" remote = "xf" revision="refs/heads/cm-11" name="android_device_sony_yuga" />
+  <!-- Yuga Specific ends -->
 
   <!-- MoKee System Start -->
   <project path="system/core" name="MoKee/android_system_core" groups="pdk" />
