@@ -440,14 +440,7 @@
   <!-- MoKee Packages Provider End -->
   
   <!-- Yuga Specific Build repos -->
-  <project path="hardware/sony/DASH" remote = "cmod" revision="refs/heads/cm-10.2" name="android_hardware_sony_DASH" />
-  <project path="device/sony/common" remote = "cmod" revision="refs/heads/cm-10.2" name="android_device_sony_common" />
-  <project path="device/sony/qcom-common" remote = "cmod" revision="refs/heads/cm-10.2" name="android_device_sony_qcom-common" />
-  <project path="device/sony/fusion3-common" remote = "cmod" revision="refs/heads/cm-10.2" name="android_device_sony_fusion3-common" />
-  <project path="packages/apps/FMRadio" remote = "cmod" revision="refs/heads/cm-10.2" name="android_packages_apps_FMRadio" />
-  <project path="kernel/sony/apq8064" remote = "cmod" revision="refs/heads/cm-10.2" name="android_kernel_sony_apq8064" />
-  <project path="vendor/sony" remote = "tm" revision="refs/heads/cm-10.2" name="proprietary_vendor_sony" />
-  <project path="device/sony/yuga" remote = "xf" revision="refs/heads/cm-10.2" name="android_device_sony_yuga" />
+  <project path="device/sony/yuga" remote = "xf" revision="refs/heads/jb-mr2_mkt" name="android_device_sony_yuga" />
   <!-- Yuga Specific ends -->
 
   <!-- MoKee Frameworks Start -->
