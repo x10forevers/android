@@ -221,7 +221,7 @@
   <project path="external/neven" revision="refs/heads/cm-11.0" name="github/CyanogenMod/android_external_neven" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/nist-sip" revision="refs/heads/cm-11.0" name="github/CyanogenMod/android_external_nist-sip" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.4_r1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="90372d894b5d9c9f2a111315d2eb3b8de1979ee4" />
   <project path="external/ntfs-3g" revision="refs/heads/cm-11.0" name="github/CyanogenMod/android_external_ntfs-3g" />
   <project path="external/oauth" revision="refs/heads/cm-11.0" name="github/CyanogenMod/android_external_oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.4_r1" />
